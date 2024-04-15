@@ -18,8 +18,8 @@
     "ext-intl": "PHP Internationalization Libraries are required to use the SpoofChecking validation"
   },
   "autoload": {
-    "psr-0": {
-      "Ahahahaaaa\\DtaaLunarExtended\\": "src"
+    "psr-4": {
+      "DtaaLunarExtended\\": "src"
     }
   },
   "extra": {
