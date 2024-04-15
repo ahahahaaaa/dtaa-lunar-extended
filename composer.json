@@ -25,7 +25,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Ahahahaaaa\\DtaaLunarExtended\\DtaaLunarServiceProvider"
+        "DtaaLunarExtended\\DtaaLunarServiceProvider"
       ]
     }
   }
