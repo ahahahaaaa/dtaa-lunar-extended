@@ -23,7 +23,7 @@
     "ext-intl": "PHP Internationalization Libraries are required to use the SpoofChecking validation"
   },
   "autoload": {
-    "psr-4": {
+    "psr-0": {
       "Dtaa\\LunarExtended\\": "src"
     },
       "extra": {
@@ -35,7 +35,7 @@
       }
   },
   "autoload-dev": {
-    "psr-4": {
+    "psr-0": {
       "Dtaa\\LunarExtended\\Tests\\": "tests"
     }
   }
