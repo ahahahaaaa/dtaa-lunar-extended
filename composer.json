@@ -33,10 +33,5 @@
               ]
           }
       }
-  },
-  "autoload-dev": {
-    "psr-0": {
-      "Ahahahaaaa\\DtaaLunarExtended\\Tests\\": "tests"
-    }
   }
 }
