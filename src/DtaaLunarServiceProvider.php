@@ -1,7 +1,7 @@
 <?php
-namespace Dtaa;
+namespace DtaaLunarExtended;
 
-use Dtaa\Http\Livewire\StoreFront;
+use DtaaLunarExtended\Http\Livewire\StoreFront;
 use Lunar\Hub\Facades\Menu;
 use Livewire\Livewire;
 
