@@ -16,17 +16,5 @@
   },
   "suggest": {
     "ext-intl": "PHP Internationalization Libraries are required to use the SpoofChecking validation"
-  },
-  "autoload": {
-    "psr-4": {
-      //"Ahahahaaaa\\DtaaLunarExtended\\": "src/"
-    },
-      "extra": {
-          "laravel": {
-              "providers": [
-                 // "DtaaLunarExtended\\DtaaLunarServiceProvider"
-              ]
-          }
-      }
   }
 }
