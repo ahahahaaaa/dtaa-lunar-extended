@@ -1,6 +1,6 @@
 <?php
 
-namespace Dtaa\Http\Livewire;
+namespace DtaaLunarExtended\Http\Livewire;
 
 use Livewire\Component;
 
