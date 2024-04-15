@@ -19,12 +19,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Ahahahaaaa\\DtaaLunarExtended\\": "src/"
+      //"Ahahahaaaa\\DtaaLunarExtended\\": "src/"
     },
       "extra": {
           "laravel": {
               "providers": [
-                  "DtaaLunarExtended\\DtaaLunarServiceProvider"
+                 // "DtaaLunarExtended\\DtaaLunarServiceProvider"
               ]
           }
       }
