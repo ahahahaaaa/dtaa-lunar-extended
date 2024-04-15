@@ -6,7 +6,7 @@ Route::group([
 ], function () {
       Route::group([
         'middleware' => [
-            Authenticate::class,
+            \Illuminate\Auth\Middleware\Authenticate::class,
         ],
     ], function ($router) {
         Route::group([
