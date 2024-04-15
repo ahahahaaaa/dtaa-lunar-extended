@@ -22,13 +22,5 @@
       "Ahahahaaaa\\DtaaLunarExtended\\": "src"
     }
   },
-  "extra": {
-    "laravel": {
-      "providers": [
-        "Ahahahaaaa\\DtaaLunarExtended\\DtaaLunarServiceProvider"
-      ]
-    }
-  }
-  ,
   "minimum-stability": "stable"
 }
