@@ -41,7 +41,7 @@ class DtaaLunarServiceProvider extends ServiceProvider
             $item
                 ->name(__('menu.sidebar.tickets'))
                 ->handle('hub.tickets')
-                ->route('hub.tickets.index')
+                ->route('dtaa.storefront.index')
                 ->icon('ticket');
         });
     }
