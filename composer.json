@@ -21,5 +21,6 @@
     "psr-0": {
       "Ahahahaaaa\\DtaaLunarExtended\\": "src"
     }
-  }
+  },
+  "minimum-stability": "dev"
 }
