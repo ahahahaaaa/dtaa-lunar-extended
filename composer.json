@@ -21,12 +21,12 @@
     "psr-0": {
       "Ahahahaaaa\\DtaaLunarExtended\\": "src"
     },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "DtaaLunarExtended\\DtaaLunarServiceProvider"
-            ]
-        }
-    }
+  "extra": {
+      "laravel": {
+          "providers": [
+              "DtaaLunarExtended\\DtaaLunarServiceProvider"
+          ]
+      }
+   }
   }
 }
