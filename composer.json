@@ -7,11 +7,6 @@
   "authors": [
     {"name": "DTAA-TECH"}
   ],
-  "extra": {
-    "branch-alias": {
-      "dev-master": "4.0.x-dev"
-    }
-  },
   "require": {
     "php": ">=8.1",
     "lunarphp/core": "^0.8.0"
