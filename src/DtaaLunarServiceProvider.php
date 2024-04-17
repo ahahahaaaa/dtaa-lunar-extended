@@ -39,8 +39,8 @@ class DtaaLunarServiceProvider extends ServiceProvider
         $slot = Menu::slot('sidebar');
         $slot->addItem(function ($item) {
             $item
-                ->name(__('dtaa.storefront.sidebar'))
-                ->handle('hub.tickets')
+                ->name(__('dtaa::storefront.sidebar'))
+                ->handle('dtaa.storefront')
                 ->route('dtaa.storefront.index')
                 ->icon('ticket');
         });
