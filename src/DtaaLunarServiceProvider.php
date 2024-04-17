@@ -21,7 +21,9 @@ class DtaaLunarServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-
+        $this->app->singleton(DtaaManifest::class, function () {
+            return new DtaaManifest();
+        });
     }
     /**
      * Bootstrap any application services.
