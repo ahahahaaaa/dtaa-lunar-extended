@@ -5,7 +5,6 @@ use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\ServiceProvider;
 use DtaaLunarExtended\Http\Livewire\StoreFront;
 use Lunar\Hub\Auth\DtaaManifest;
-use Lunar\Hub\Auth\Manifest;
 use Lunar\Hub\Facades\Menu;
 use Livewire\Livewire;
 
