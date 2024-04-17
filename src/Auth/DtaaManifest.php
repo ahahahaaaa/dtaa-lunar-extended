@@ -1,6 +1,6 @@
 <?php
 
-namespace Lunar\Hub\Auth;
+namespace DtaaLunarExtended\Auth;
 
 use Illuminate\Support\Collection;
 use Lunar\Hub\Auth\Manifest;
