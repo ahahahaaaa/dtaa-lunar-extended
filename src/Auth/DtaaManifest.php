@@ -4,6 +4,7 @@ namespace DtaaLunarExtended\Auth;
 
 use Illuminate\Support\Collection;
 use Lunar\Hub\Auth\Manifest;
+use Lunar\Hub\Auth\Permission;
 
 class DtaaManifest extends Manifest
 {
