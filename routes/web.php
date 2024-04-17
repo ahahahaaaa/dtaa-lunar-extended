@@ -1,12 +1,12 @@
 <?php
-
+use Lunar\Hub\Http\Middleware\Authenticate;
 Route::group([
     'prefix' => config('lunar-hub.system.path', 'dtaa'),
     'middleware' => config('lunar-hub.system.middleware', ['web']),
 ], function () {
       Route::group([
         'middleware' => [
-            \Illuminate\Auth\Middleware\Authenticate::class,
+            Authenticate::Class,
         ],
     ], function ($router) {
         Route::group([

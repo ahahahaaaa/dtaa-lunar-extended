@@ -1,8 +1,11 @@
 <?php
 namespace DtaaLunarExtended;
 
+use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\ServiceProvider;
 use DtaaLunarExtended\Http\Livewire\StoreFront;
+use Lunar\Hub\Auth\DtaaManifest;
+use Lunar\Hub\Auth\Manifest;
 use Lunar\Hub\Facades\Menu;
 use Livewire\Livewire;
 
@@ -29,6 +32,7 @@ class DtaaLunarServiceProvider extends ServiceProvider
         $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
         $this->loadViewsFrom(__DIR__.'/../resources/views', 'dtaa');
         $this->loadTranslationsFrom(__DIR__.'/../resources/lang', 'dtaa');
+        $this->registerPermissionManifest();
         $this->registerLivewireComponents();
         $this->registerStateListeners();
         // Menu Builder
@@ -43,6 +47,21 @@ class DtaaLunarServiceProvider extends ServiceProvider
                 ->handle('dtaa.storefront')
                 ->route('dtaa.storefront.index')
                 ->icon('ticket');
+        });
+    }
+    /**
+     * Register our permissions manifest.
+     *
+     * @return void
+     */
+    protected function registerPermissionManifest()
+    {
+        Gate::after(function ($user, $ability) {
+            // Are we trying to authorize something within the extended?
+            $permission = $this->app->get(DtaaManifest::class)->getPermissions()->first(fn ($permission) => $permission->handle === $ability);
+            if ($permission) {
+                return $user->admin || $user->hasPermissionTo($ability);
+            }
         });
     }
     protected function registerAddonManifest()
