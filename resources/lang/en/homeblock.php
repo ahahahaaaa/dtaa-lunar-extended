@@ -1,9 +1,9 @@
 <?php
 
 return [
-    'sidebar' => 'Store Front',
+    'sidebar' => 'Home Blocks',
     'manage-storefront' => 'Manage StoreFront',
-    'title' => 'Store Front',
-    'section' => 'Store Front',
+    'title' => 'Home Blocks',
+    'section' => 'Home Blocks',
     'homeblock' => 'Home Blocks'
 ];

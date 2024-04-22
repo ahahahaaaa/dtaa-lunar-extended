@@ -156,10 +156,10 @@ class DtaaLunarServiceProvider extends ServiceProvider
 HTML);
         $slot->addItem(function ($item) {
             $item
-                ->name(__('dtaa::storefront.sidebar'))
-                ->handle('dtaa.storefront')
-                ->route('dtaa.storefront.index')
-                ->icon('ticket');
+                ->name(__('dtaa::storefront.homeblock'))
+                ->handle('dtaa.storefront.homeblock')
+                ->route('dtaa.storefront.home-block')
+                ->icon('table');
         });
     }
     /**

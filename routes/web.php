@@ -12,5 +12,8 @@ Route::group([
         Route::group([
             'prefix' => 'storefront',
         ], __DIR__.'/includes/storefront.php');
+        Route::group([
+            'prefix' => 'homeblock',
+        ], __DIR__.'/includes/homeblock.php');
     });
 });
