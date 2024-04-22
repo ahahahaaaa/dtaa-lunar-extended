@@ -2,5 +2,6 @@
 
 return [
     'sidebar' => 'Store Front',
-    'manage-storefront' => 'Manage StoreFront'
+    'manage-storefront' => 'Manage StoreFront',
+    'title' => 'Store Front'
 ];
