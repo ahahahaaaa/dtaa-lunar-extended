@@ -2,7 +2,7 @@
 
 return [
     'sidebar' => 'Home Blocks',
-    'manage-storefront' => 'Manage StoreFront',
+    'manage-homeblock' => 'Manage Home Blocks',
     'title' => 'Home Blocks',
     'section' => 'Home Blocks',
     'homeblock' => 'Home Blocks'

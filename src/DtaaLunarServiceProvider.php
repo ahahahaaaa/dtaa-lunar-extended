@@ -158,7 +158,7 @@ HTML);
             $item
                 ->name(__('dtaa::storefront.homeblock'))
                 ->handle('dtaa.storefront.homeblock')
-                ->route('dtaa.storefront.home-block')
+                ->route('dtaa.homeblock.index')
                 ->icon('table');
         });
     }
